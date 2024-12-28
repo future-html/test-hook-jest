@@ -5,8 +5,15 @@ import { fakeUsers } from "../utils/mockData";
 import { UserProvider } from "../UserContext";
 import UserCard from "../components/UserCard";
 import { waitFor } from "@testing-library/react";
-
+import { act } from "@testing-library/react";
 import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
+
+// jest.mock("react-dom/client", () => ({
+// 	createRoot: jest.fn(() => ({
+// 		render: jest.fn(),
+// 	})),
+// }));
 // jest.mock("../UserContext", () => ({
 // 	useUserContext: () => ({
 // 		user: { name: "Chelsey Dietrich", email: "chelsey@example.com" },
@@ -17,6 +24,17 @@ import { createRoot } from "react-dom/client";
 // 	createRoot: jest.fn(() => ({
 // 		render: jest.fn(),
 // 	})),
+// }));
+
+const mockRender = jest.fn();
+const mockCreateRoot = jest.fn(() => ({
+	render: mockRender,
+	unmount: jest.fn(),
+}));
+
+// jest.mock("react-dom/client", () => ({
+// 	// Use a named export mock
+// 	createRoot: () => mockCreateRoot(),
 // }));
 
 describe("testing main page", () => {
@@ -41,7 +59,10 @@ describe("testing main page", () => {
 	test("should render App component inside root element", () => {
 		// Act: Import the main file (executes the code)
 
-		require("../main");
+		act(() => {
+			require("../main");
+		});
+
 		// Assert: Verify that createRoot was called with the root element
 		expect(createRoot).toHaveBeenCalledWith(rootElement);
 		// Assert: Ensure render method of the root is called with <App />
