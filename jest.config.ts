@@ -33,5 +33,5 @@ module.exports = {
 	// 	testEnvironment: "node",
 	// },
 
-	setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+	setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"], // add the setup file after install jest
 };
