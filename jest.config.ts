@@ -5,8 +5,9 @@ module.exports = {
 	coverageDirectory: "coverage",
 	testEnvironment: "jsdom",
 	transform: {
-		".(ts|tsx)": "ts-jest",
+		"^.+\\.tsx?$": "ts-jest", // Use ts-jest for TypeScript files
 	},
+	moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
 
 	coveragePathIgnorePatterns: [
 		"/node_modules/",
