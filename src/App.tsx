@@ -60,6 +60,7 @@ export default function App() {
 								{user.name} - {user.email}
 							</li>
 						))}
+						some text
 					</ul>
 				</>
 			)}
