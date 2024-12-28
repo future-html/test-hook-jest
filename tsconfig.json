@@ -4,5 +4,5 @@
 	"compilerOptions": {
 		"jsx": "react-jsx",
 		"esModuleInterop": true
-	}
+	} // add compiler options by using this file
 }

@@ -1,2 +1,2 @@
 import "@testing-library/jest-dom";
-import "whatwg-fetch";
+import "whatwg-fetch"; // add fetch wgwatch file
