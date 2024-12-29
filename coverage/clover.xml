@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1735460247830" clover="3.2.0">
+  <project timestamp="1735460247831" name="All files">
+    <metrics statements="13" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2" elements="17" coveredelements="9" complexity="0" loc="13" ncloc="13" packages="1" files="2" classes="2"/>
+    <file name="App.tsx" path="/Users/witsanupornpromsirinimit/jest-test/src/App.tsx">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="41" count="0" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+    </file>
+    <file name="main.tsx" path="/Users/witsanupornpromsirinimit/jest-test/src/main.tsx">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
