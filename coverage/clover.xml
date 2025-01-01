@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1735719005503" clover="3.2.0">
+  <project timestamp="1735719005503" name="All files">
+    <metrics statements="21" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4" elements="27" coveredelements="18" complexity="0" loc="21" ncloc="21" packages="1" files="3" classes="3"/>
+    <file name="App.tsx" path="/Users/witsanupornpromsirinimit/form-test-jest/form/src/App.tsx">
+      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+    <file name="UseEffect.tsx" path="/Users/witsanupornpromsirinimit/form-test-jest/form/src/UseEffect.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="34" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+    <file name="main.tsx" path="/Users/witsanupornpromsirinimit/form-test-jest/form/src/main.tsx">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
