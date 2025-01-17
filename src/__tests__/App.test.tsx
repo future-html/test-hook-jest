@@ -9,23 +9,7 @@ import { act } from "@testing-library/react";
 import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
 
-// jest.mock("react-dom/client", () => ({
-// 	createRoot: jest.fn(() => ({
-// 		render: jest.fn(),
-// 	})),
-// }));
 
-// jest.mock("react-dom/client", () => ({
-// 	createRoot: jest.fn().mockImplementation(() => ({
-// 		render: mockRender,
-// 	})),
-// }));
-
-// jest.mock("react-dom/client", () => ({
-// 	createRoot: jest.fn().mockReturnValue({
-// 		render: jest.fn(),
-// 	}),
-// }));
 
 describe("testing main page", () => {
 	let rootElement: HTMLElement;
